@@ -27,5 +27,14 @@ The entire program is run by three python files, "youtubeAI.py" being the main f
 ## The procedures
 
 - topKeywords()
+        This procedure looks at the commentArray which is a list of 100 comments from the YouTube link or a list of the comments that has been provided to the program. It outputs a visualisation of the top 80 keywords (excluding the most common 84 words of the english language) and outputs the top 10 most used words with their sentiment analysis.
+    
+- spamDection()
+        This procedure imports an AI model from `spamDetection.py` and predicts whether the comments in the commentArray list are spam/fraud or not. It displays these predictions using quantitative statistics and saves all the spam comments in a separate file "spam.txt" which will appear with "ham.txt" (containing all the legitimate comments).
+
+- getComments()
+        When provided with a videoID, this procedure will append to the global list `CommentArray` using the Google YouTube API. This procedure prepares the data on which the upper two procedures work.
+
+## Demo of the program
 
 https://youtu.be/WaJC30qKgYc
