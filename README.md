@@ -37,4 +37,4 @@ The entire program is run by three python files, "youtubeAI.py" being the main f
 
 ## Demo of the program
 
-![Demo Video](https://youtu.be/WaJC30qKgYc)
+[Demo Video](https://youtu.be/WaJC30qKgYc)
